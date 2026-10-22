@@ -1,6 +1,6 @@
-<div align="center">
-  <img src="assets/readme-banner.png" alt="Bhavesh Kumar — Making Ideas Real" width="100%">
-</div>
+<p align="center">
+  <img src="assets/readme-banner.png" alt="Bhavesh Kumar — Making Ideas Real" width="90%">
+</p>
 
 <div align="center">
 
