@@ -1,42 +1,78 @@
-# Bhavesh Kumar — NFC Digital Contact UI
+<div align="center">
+  <img src="assets/readme-banner.png" alt="Bhavesh Kumar — Making Ideas Real" width="100%">
+</div>
 
-A responsive, editorial portfolio-style NFC contact page with an image-led “MINDING THE MIND” cover, a “Making ideas real” tagline, a scroll-to-contact section, theme toggle, contact links, profile sharing, and a downloadable vCard.
+<div align="center">
 
-## Project files
-- `index.html` — page structure and profile details
-- `styles.css` — editorial layout, responsive breakpoints, light/dark themes
-- `script.js` — theme toggle, `.vcf` generation, share button
-- `assets/minding-the-mind-transparent.png` — transparent cover used in light theme
-- `assets/Minding the Mind Portfolio Cover.png` — source cover used to create the transparent hero artwork
+# NFC Profile
 
-## Preview locally
-From this folder, run:
+**One tap. All the ways to connect.**
+
+[![Visit the live profile](https://img.shields.io/badge/LIVE%20PROFILE-OPEN%20WEBSITE-d50827?style=for-the-badge)](https://sam-bot-dev.github.io/NFC-Profile/)
+[![View on GitHub](https://img.shields.io/badge/GITHUB-NFC--PROFILE-171717?style=for-the-badge&logo=github)](https://github.com/Sam-bot-dev/NFC-Profile)
+
+*A personal digital contact card made to share in a tap.*
+
+</div>
+
+---
+
+## ✨ The idea
+
+Tap an NFC card—or open the link—to find Bhavesh's contact details and profiles in one clean, mobile-friendly place. No app or account is required.
+
+## 🚀 What’s inside
+
+| | Feature | What it does |
+|:--:|---|---|
+| 🎨 | **Editorial portfolio** | A bold, image-led cover with a responsive layout |
+| 🌓 | **Light & dark themes** | Switch themes and keep your preference on this device |
+| 📇 | **Save contact** | Download a vCard that can be added to your contacts |
+| 🔗 | **Share profile** | Share the page or copy its link |
+| 📬 | **Direct contact links** | Open phone, email, GitHub, and LinkedIn |
+| 📱 | **NFC-ready** | Write the live website URL to an NFC card |
+
+## 📲 Put it on an NFC card
+
+1. Open the live profile: **[sam-bot-dev.github.io/NFC-Profile](https://sam-bot-dev.github.io/NFC-Profile/)**.
+2. In an NFC writing app, choose **Write → Add a record → URL/URI**.
+3. Paste the profile URL and write it to your NFC card.
+4. Tap the card with a phone to test it.
+
+The NFC card stores only the link. Visitors can open the profile in their browser and choose **Save contact** if they want the vCard.
+
+## 💻 Run it locally
 
 ```bash
+git clone https://github.com/Sam-bot-dev/NFC-Profile.git
+cd NFC-Profile
 python3 -m http.server 8000
 ```
 
-Open `http://localhost:8000`.
+Then open [localhost:8000](http://localhost:8000). The site is static; no build step or backend is needed.
 
-## Deploy with GitHub Pages
-1. Create a repository such as `bhavesh-nfc-card`.
-2. Upload the contents of this folder to the repository root. Keep the `assets` folder.
-3. Go to **Settings → Pages**.
-4. Choose **Deploy from a branch**, select `main` and `/ (root)`, then save.
-5. Open the published HTTPS URL on a phone and test all links and the Save Contact button.
+## 🗂️ Project layout
 
-## Program your NFC tag
-1. Use the full public HTTPS URL after the site is deployed.
-2. Open an NFC writing app such as NFC Tools and select **Write → Add a record → URL/URI**.
-3. Enter the website URL and write it to the NFC tag.
-4. Test the tag on a second phone if possible. The tag opens the site; the visitor taps Save contact to download the `.vcf`.
+```text
+.
+├── index.html
+├── styles.css
+├── script.js
+└── assets/
+    ├── Minding the Mind Portfolio Cover.png
+    ├── minding-the-mind-transparent.png
+    ├── portrait-poster.png
+    └── readme-banner.png
+```
 
-## Profile details included
-- Bhavesh Kumar — Computer Science Undergraduate
-- Phone: +91 93284 05647
-- Email: bavesh2006kumar@gmail.com
-- GitHub: https://github.com/Sam-bot-dev
-- LinkedIn: https://www.linkedin.com/in/l-bhavesh
-- Gandhinagar, Gujarat, India
+## 🔗 Find me
 
-No backend is required. The vCard is generated locally in the browser. The page uses Google Fonts when internet access is available.
+[GitHub · Sam-bot-dev](https://github.com/Sam-bot-dev) ·
+[LinkedIn · Bhavesh Kumar](https://www.linkedin.com/in/l-bhavesh) ·
+[Contact profile](https://sam-bot-dev.github.io/NFC-Profile/)
+
+---
+
+<div align="center">
+  <sub>Made to connect · Bhavesh Kumar · Gandhinagar, India</sub>
+</div>
