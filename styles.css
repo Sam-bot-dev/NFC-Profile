@@ -20,4 +20,4 @@ body.dark .hero-cover::before{position:absolute;z-index:1;top:6.1%;left:5.3%;wid
 body.dark .cover-name{z-index:2;background:var(--bg);color:var(--text)}
 .hero-tagline{margin:18px 0 48px;color:var(--text);font-size:clamp(14px,1.25vw,18px);font-weight:700;letter-spacing:.16em;text-align:center;text-transform:uppercase}
 .scroll-cue{position:absolute;z-index:2;bottom:4px;left:50%;transform:translateX(-50%)}
-@media(max-width:700px){.hero{height:auto;min-height:0;padding:68px 0 12px;display:block;overflow:hidden}.hero-cover{width:100%;margin:0 auto}.hero-tagline{margin:14px 0 20px;font-size:12px}.scroll-cue{position:static;transform:none;margin:12px auto 0;font-size:6px}}
+@media(max-width:700px){.hero{height:auto;min-height:0;padding:68px 0 12px;display:block;overflow:hidden}.hero-cover{width:min(100%,42svh);margin:0 auto}.hero-tagline{margin:14px 0 20px;font-size:12px}.scroll-cue{position:static;transform:none;margin:12px auto 0;font-size:6px}}
